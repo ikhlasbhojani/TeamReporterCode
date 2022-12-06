@@ -1,0 +1,51 @@
+.center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  z-index: 12;
+  width: 40vw;
+}
+
+.item {
+  margin-top: 10px;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.btnContainer {
+  background-color: #fff;
+}
+
+.btn {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.btn:hover {
+  background-color: #1a4d7c;
+}
+
+.icon {
+  width: 30px;
+}

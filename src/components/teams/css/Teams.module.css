@@ -1,0 +1,39 @@
+.parentCard {
+  height: 90vh;
+  width: 100%;
+}
+
+.parentCard h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2vw;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+}
+
+.btnIcon {
+  font-size: 40px;
+  color: rgb(57, 57, 238);
+}
+
+.btnIcon:hover {
+  font-size: 42px;
+  color: rgb(23, 23, 242);
+}
+
+.logoutBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

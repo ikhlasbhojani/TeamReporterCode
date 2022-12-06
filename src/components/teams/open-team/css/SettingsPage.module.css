@@ -1,0 +1,101 @@
+.settingsContainer {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 20px;
+}
+
+.listItem {
+  list-style: none;
+  border-bottom: 2px solid rgba(66, 59, 59, 0.229);
+  width: 30rem;
+}
+
+.membersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.addMemberContainer {
+  width: 80vw;
+  margin-left: 4rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.btnContainer {
+  width: 80vw;
+  margin-left: 4rem;
+  margin-top: 6vh;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnDanger {
+  margin-left: 7rem;
+}
+
+@media only screen and (max-width: 840px) {
+  .listItem {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .settingsContainer {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .list {
+    gap: 10px;
+    margin-left: 5px;
+  }
+
+  .membersContainer {
+    gap: 10px;
+  }
+
+  .addMemberContainer {
+    margin-left: 35px;
+    gap: 1rem;
+  }
+
+  .btnContainer {
+    margin-left: 2rem;
+    margin-top: 5vh;
+  }
+
+  .listItem {
+    width: 15rem;
+  }
+
+  .btnDanger {
+    margin-left: 0rem;
+  }
+}
