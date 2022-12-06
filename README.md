@@ -10,5 +10,5 @@ This is a Team Reporter website which is based on team management. This website 
 
 ### For Login
 
-Own team email and password : test@test.com, 123456
-PartOf team email and password : test2@test.com, 123456
+Admin email and password : test@test.com, 123456
+TeamMember email and password : test2@test.com, 123456
